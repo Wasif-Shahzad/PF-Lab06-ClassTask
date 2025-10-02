@@ -13,5 +13,4 @@ int main() {
 	// we've removed all the digits except the first digit
 	sum += n;
 	printf("The sum of first and last digit is %d", sum); 
-	// 23094820938
 }
