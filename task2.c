@@ -21,6 +21,11 @@ int main() {
 	printf("Enter the value of b: ");
 	scanf("%d", &b);
 	
+	if(b == 0) {
+		printf("MATH ERROR!\n");
+		return 0;
+	}
+	
 	int division_result = 0;
 	for(int i = b; i <= a; i += b) {
 		division_result++;
