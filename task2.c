@@ -26,6 +26,11 @@ int main() {
 		return 0;
 	}
 	
+	if(a % b != 0) {
+		printf("A is not divisible by B. Our program only tackles perfectly divisible integers\n");
+		return 0;
+	}
+	
 	int division_result = 0;
 	for(int i = b; i <= a; i += b) {
 		division_result++;
